@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sing up</title>
+    <link rel="stylesheet" href="./singup.css">
+    <script src="./singup.js"></script>
+</head>
+<body>
+    
+    <main class="window">
+        <div class="form register">
+         <form onsubmit="event.preventDefault()" id="register" novalidate>
+            <img style="width: 130px; margin-bottom: 30px;" src="./My-logo-white - singup.png" alt="">
+          <input type="email" name="email" required id="field-email">
+          <label for="field-email">email*</label>
+          <input type="password" name="pass" required id="field-pass">
+          <label for="field-pass">password*</label>
+          <input type="password" name="pass2" required id="field-pass2">
+          <label style="margin-bottom: 45px;" for="field-pass2">repeat password*</label>
+          <button style="margin-bottom: 100px; cursor: pointer;" type="submit">SIGN UP</button>
+         </form>
+         <p id="log"> log in </p>
+        </div>
+        <div class="form login">
+         <form  onsubmit="event.preventDefault()" id="login" novalidate>
+            <img style="width: 130px; margin-bottom: 30px;" src="./My-logo-white - singup.png" alt="">
+          <input type="email" name="email" required id="login-email">
+          <label for="login-email">email*</label>
+          <input type="password" name="pass" required id="login-pass" data-error="Niepoprawne hasło">
+          <label style="margin-bottom: 45px;" for="field-pass">password*</label>
+          <button  type="submit" ><a href="./index2.html"> LOG IN </a></button>
+         </form>
+         <p id="reg"> sing up </p>
+        </div>
+       </main>
+</body>
+</html>
