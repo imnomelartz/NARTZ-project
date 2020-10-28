@@ -624,10 +624,11 @@ figure.snip1278.hover .add-to-cart {
   left: 50%;
   transform: translate(-50%, -70%);
 }
-.Websit-name h1 {
+.parallax h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 46px;
+  font-size: 68px;
   color: white;
+  left: 50px;
 }
 .big-title {
   font-family: "Poppins", sans-serif;
@@ -803,4 +804,13 @@ section .conteent {
     border-radius: 20px;
     width: auto;
     */
+}
+
+@keyframes Slide_Up {
+  0% {
+    transform: translateY(250px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
