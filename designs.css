@@ -627,7 +627,7 @@ figure.snip1278.hover .add-to-cart {
 .parallax h1 {
   font-size: 68px;
   color: white;
-  left: 40px;
+  /* left: 40px; */
 }
 .big-title {
   font-family: "Poppins", sans-serif;
